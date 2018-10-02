@@ -37,7 +37,12 @@ ModelImporter:
     4300008: pool
     4300010: Board
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: concept art tif version
+    second: {fileID: 2800000, guid: 740ec4da4c984c643a7cddda39682151, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
