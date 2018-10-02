@@ -705,6 +705,7 @@ GameObject:
   - component: {fileID: 959308590}
   - component: {fileID: 959308589}
   - component: {fileID: 959308594}
+  - component: {fileID: 959308588}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -712,6 +713,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &959308588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 959308587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 51634275b7fa78441853e1ad39131ca7, type: 2}
 --- !u!81 &959308589
 AudioListener:
   m_ObjectHideFlags: 0
@@ -887,7 +900,7 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4eedafad5084240419e649245c7b2093, type: 3}
   - {fileID: 2100000, guid: a6329ec80f51d6049a5d00d86224003b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -1006,7 +1019,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 8
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1175,7 +1188,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1558,7 +1571,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 22.266575, y: 8.561137, z: 1}
+    m_Scale: {x: 22.266575, y: 16.461983, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -1567,7 +1580,7 @@ ParticleSystem:
     m_SkinnedMeshRenderer: {fileID: 0}
     m_UseMeshMaterialIndex: 0
     m_UseMeshColors: 1
-    alignToDirection: 0
+    alignToDirection: 1
     m_Texture: {fileID: 0}
     m_TextureClipChannel: 3
     m_TextureClipThreshold: 0
@@ -1577,7 +1590,7 @@ ParticleSystem:
     m_TextureBilinearFiltering: 0
     randomDirectionAmount: 0
     sphericalDirectionAmount: 0
-    randomPositionAmount: 0
+    randomPositionAmount: 0.125
     radius:
       value: 1
       mode: 0
@@ -1698,7 +1711,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -3554,7 +3567,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     separateAxes: 0
-    frequency: 2
+    frequency: 3
     damping: 0
     octaves: 1
     octaveMultiplier: 0.5
@@ -4660,7 +4673,7 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0.22973442
+          value: 0.06757164
           inSlope: 0
           outSlope: 0
           tangentMode: 34
@@ -4669,7 +4682,7 @@ ParticleSystem:
           outWeight: 0.33333334
         - serializedVersion: 3
           time: 1
-          value: 0.22973442
+          value: 0.06757164
           inSlope: 0
           outSlope: 0
           tangentMode: 34
@@ -5465,7 +5478,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1249616697}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 124.3, y: 24.48, z: -7.83}
+  m_LocalPosition: {x: 199.6, y: 48.2, z: 15.13}
   m_LocalScale: {x: 1.725021, y: 1.7250197, z: 1.7250206}
   m_Children: []
   m_Father: {fileID: 1936920879}
@@ -5705,6 +5718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1742924503}
   - component: {fileID: 1742924504}
+  - component: {fileID: 1742924505}
   m_Layer: 0
   m_Name: Interactive
   m_TagString: Untagged
@@ -5750,6 +5764,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1742924505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1742924502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7059be774354e549ac38349edd65636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  post: {fileID: 959308588}
 --- !u!4 &1754516043 stripped
 Transform:
   m_PrefabParentObject: {fileID: 498412, guid: 970dd4b9371394fb4890965f608d46fd, type: 2}
