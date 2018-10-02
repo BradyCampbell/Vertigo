@@ -178,6 +178,7 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrVRHelpers.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+    <Compile Include="Assets\Rotat.cs" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
@@ -366,9 +367,6 @@
     </Reference>
     <Reference Include="Unity.Locator">
       <HintPath>C:/Program Files/Unity (2018.1.7f1)/Editor/Data/Managed/Unity.Locator.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>C:/Users/u0929730/Documents/GitHub/Vertigo/Acrophobia/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity (2018.1.7f1)/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
