@@ -10,13 +10,17 @@ public class CameraShakeTrigger : MonoBehaviour
 
     [SerializeField] PostProcessingBehaviour post;
     [SerializeField] Material[] skyboxes;
+    [SerializeField] AudioClip cheer, ringing;
+
+    AudioSource say;
+
     int sky = 0;
 
 
     // Use this for initialization
     void Start()
     {
-
+        say = gameObject.AddComponent<AudioSource>();
         post.profile.vignette.enabled = false;
     }
 
@@ -42,5 +46,15 @@ public class CameraShakeTrigger : MonoBehaviour
     public void Restort()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void Cheer()
+    {
+        say.PlayOneShot(cheer);
+    }
+
+    public void EarRing()
+    {
+        say.PlayOneShot(ringing);
     }
 }   
