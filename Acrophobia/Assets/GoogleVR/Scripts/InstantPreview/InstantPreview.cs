@@ -151,7 +151,7 @@ namespace Gvr.Internal {
       }
 
       Instance = this;
-      DontDestroyOnLoad(gameObject);
+      DontDestroyOnLoad(this);
     }
 
     void Start() {

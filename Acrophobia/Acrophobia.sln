@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acrophobia", "Assembly-CSharp.csproj", "{0E1BD6A2-CED1-7AB2-8A4D-C14D99154C4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0E1BD6A2-CED1-7AB2-8A4D-C14D99154C4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acrophobia", "Assembly-CSharp-firstpass.csproj", "{B2BEECE6-02EE-7711-1C79-71F8C849CFBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{B2BEECE6-02EE-7711-1C79-71F8C849CFBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acrophobia", "Assembly-CSharp-Editor.csproj", "{090AA4E2-13B7-302F-97CC-54EAACC7B066}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{090AA4E2-13B7-302F-97CC-54EAACC7B066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acrophobia", "Assembly-CSharp-Editor-firstpass.csproj", "{D558ED7F-084C-076C-8406-4945E3499213}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{D558ED7F-084C-076C-8406-4945E3499213}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

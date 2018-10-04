@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 8b21def21c03aa6438b38eb42043763b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Board
+    100002: divesupports
+    100004: Ladder
+    100006: pool
+    100008: //RootNode
+    100010: score1
+    100012: score2
+    100014: score3
+    100016: Stands
+    100018: Whitebarriers
+    400000: Board
+    400002: divesupports
+    400004: Ladder
+    400006: pool
+    400008: //RootNode
+    400010: score1
+    400012: score2
+    400014: score3
+    400016: Stands
+    400018: Whitebarriers
+    2100000: lambert4
+    2300000: Board
+    2300002: divesupports
+    2300004: Ladder
+    2300006: pool
+    2300008: score1
+    2300010: score2
+    2300012: score3
+    2300014: Stands
+    2300016: Whitebarriers
+    3300000: Board
+    3300002: divesupports
+    3300004: Ladder
+    3300006: pool
+    3300008: score1
+    3300010: score2
+    3300012: score3
+    3300014: Stands
+    3300016: Whitebarriers
+    4300000: pool
+    4300002: Board
+    4300004: Whitebarriers
+    4300006: Ladder
+    4300008: divesupports
+    4300010: Stands
+    4300012: score1
+    4300014: score2
+    4300016: score3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 484d1330e027db14db12cc0d7b66d5e3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,21 +1,46 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.PostProcessing;
 using EZCameraShake;
+using UnityEngine.SceneManagement;
 
 public class CameraShakeTrigger : MonoBehaviour
 {
-    
-    private void Update()
-    {
-        
-        if (Input.GetMouseButtonDown(0))
-        {
-            CameraShaker.Instance.ShakeOnce(5f, 1f, 60f, 30f);
-            
-        }
-        
 
-        
+    [SerializeField] PostProcessingBehaviour post;
+    [SerializeField] Material[] skyboxes;
+    int sky = 0;
+
+
+    // Use this for initialization
+    void Start()
+    {
+
+        post.profile.vignette.enabled = false;
+    }
+
+    // Update is called once per frame
+    public void VignetteMe()
+    {
+
+        post.profile.vignette.enabled = true;
+
+    }
+
+    public void Shake()
+    {
+        CameraShaker.Instance.ShakeOnce(5f, 1f, 60f, 30f);
+    }
+
+    public void IncrementSkybox()
+    {
+        sky++;
+        RenderSettings.skybox = skyboxes[sky%skyboxes.Length];
+    }
+
+    public void Restort()
+    {
+        SceneManager.LoadScene(0);
     }
 }   
